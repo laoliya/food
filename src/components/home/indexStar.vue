@@ -9,7 +9,7 @@
             <div class="three_meals_img">
                 <div class="meals-one" v-for="(item,i) of list" :key="i">
                     <div class="meals-left">
-                        <img :src="`http://127.0.0.1:3000/img/`+item.img" alt="">
+                        <img :src="`https://www.wz2018.top:3001/img/`+item.img" alt="">
                     </div>
                     <div class="meals-right">
                         <div class="meals-container">

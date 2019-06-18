@@ -13,7 +13,7 @@
                     <div class="meals-box" v-for="(item,i) of bre" :key="i">
                         <router-link :to="`/menuDetail/${item.mid}`" target="_blank" class="meals_a">
                             <div class="meals-img-box">
-                                <img :src="'http://127.0.0.1:3000/img/'+item.img" class="meals_img">
+                                <img :src="'https://www.wz2018.top:3001/img/'+item.img" class="meals_img">
                             </div>
                             <div class="meal_con">
                                 <h3 class="meals_h3">{{item.mname}}</h3>
@@ -29,7 +29,7 @@
                     <div class="meals-box" v-for="(item,i) of lun" :key="i">
                         <router-link :to="`/menuDetail/${item.mid}`" target="_blank" class="meals_a">
                             <div class="meals-img-box">
-                                <img :src="'http://127.0.0.1:3000/img/'+item.img" class="meals_img">
+                                <img :src="'https://www.wz2018.top:3001/img/'+item.img" class="meals_img">
                             </div>
                             <div class="meal_con">
                                 <h3 class="meals_h3">{{item.mname}}</h3>
@@ -45,7 +45,7 @@
                     <div class="meals-box" v-for="(item,i) of din" :key="i">
                         <router-link :to="`/menuDetail/${item.mid}`" target="_blank" class="meals_a">
                             <div class="meals-img-box">
-                                <img :src="'http://127.0.0.1:3000/img/'+item.img" class="meals_img">
+                                <img :src="'https://www.wz2018.top:3001/img/'+item.img" class="meals_img">
                             </div>
                             <div class="meal_con">
                                 <h3 class="meals_h3">{{item.mname}}</h3>
@@ -70,7 +70,7 @@
             <div class="travel_box" v-for="(item,i) of video" :key="i">
                 <router-link :to="`/menuDetail/${item.mid}`" target="_blank" class="travel_a">
                     <div class="travel_img_box">
-                        <img :src="'http://127.0.0.1:3000/img/'+item.img" class="travel_img">
+                        <img :src="'https://www.wz2018.top:3001/img/'+item.img" class="travel_img">
                     </div>
                     <div>
                         <h3 class="travel_h3 meals_h3">{{item.mname}}</h3>

@@ -5,10 +5,10 @@
             <span>{{list[0].mname}}</span>
         </div>
         <div class="metu_img" v-if="list[0].video==null">
-            <img :src="'http://127.0.0.1:3000/img/'+list[0].img" alt="">
+            <img :src="'https://www.wz2018.top:3001/img/'+list[0].img" alt="">
         </div>
         <div class="metu_img" v-if="list[0].video">
-            <video :src="'http://127.0.0.1:3000/'+list[0].video" controls></video>
+            <video :src="'https://www.wz2018.top:3001/'+list[0].video" controls></video>
         </div>
         <div class="metu_name">
             <h1>{{list[0].mname}}</h1>

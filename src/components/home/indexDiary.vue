@@ -10,7 +10,7 @@
                 <a href="">
                     <div class="dairy_a_div" v-if="menus[0]">
                         <div class="dairy_top">
-                            <img :src="`http://127.0.0.1:3000/img/`+menus[0].img" alt="" class="dairy_img"/>
+                            <img :src="`https://www.wz2018.top:3001/img/`+menus[0].img" alt="" class="dairy_img"/>
                         </div>
                         <span class="dairy_span dairy_span3">{{menus[0].title}}</span>
                         <div class="dairy_bottom">
@@ -51,7 +51,7 @@
                 <a href="">
                     <div class="dairy_a_div" v-if="menus[0]">
                         <div class="dairy_top">
-                            <img :src="`http://127.0.0.1:3000/img/`+menus[1].img" alt="" class="dairy_img"/>
+                            <img :src="`https://www.wz2018.top:3001/img/`+menus[1].img" alt="" class="dairy_img"/>
                         </div>
                         <span class="dairy_span dairy_span2">{{menus[1].title}}</span>
                         <div class="dairy_bottom">
@@ -92,7 +92,7 @@
                 <a href="">
                     <div class="dairy_a_div" v-if="menus[0]">
                         <div class="dairy_top">
-                            <img :src="`http://127.0.0.1:3000/img/`+menus[2].img" alt="" class="dairy_img"/>
+                            <img :src="`https://www.wz2018.top:3001/img/`+menus[2].img" alt="" class="dairy_img"/>
                         </div>
                         <span class="dairy_span dairy_span">{{menus[2].title}}</span>
                         <div class="dairy_bottom">

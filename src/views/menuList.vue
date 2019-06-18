@@ -12,7 +12,7 @@
                         <a href="" v-for="(menu,index) in mm" :key="index">
                             <div class="menu-content-item">
                                 <div class="img_div">
-                                    <img :src="`http://127.0.0.1:3000/img/`+menu.img" alt="">
+                                    <img :src="`https://www.wz2018.top:3001/img/`+menu.img" alt="">
                                 </div>
                                 <div class="content_div">
                                     <h4>{{menu.mname}}</h4>
@@ -29,7 +29,7 @@
                         <a href="" v-for="(menu,index) in nn" :key="index">
                             <div class="menu-content-item">
                                 <div class="img_div">
-                                    <img :src="`http://127.0.0.1:3000/img/`+menu.img" alt="">
+                                    <img :src="`https://www.wz2018.top:3001/img/`+menu.img" alt="">
                                 </div>
                                 <div class="content_div">
                                     <h4>{{menu.mname}}</h4>
@@ -46,7 +46,7 @@
                         <a href="" v-for="(menu,index) in ss" :key="index">
                             <div class="menu-content-item">
                                 <div class="img_div">
-                                    <img :src="`http://127.0.0.1:3000/img/`+menu.img" alt="">
+                                    <img :src="`https://www.wz2018.top:3001/img/`+menu.img" alt="">
                                 </div>
                                 <div class="content_div">
                                     <h4>{{menu.mname}}</h4>

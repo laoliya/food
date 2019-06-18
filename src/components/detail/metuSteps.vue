@@ -8,7 +8,7 @@
                     <p>{{item.details}}</p>
                 </div>
                 <div class="steps_right">
-                    <img :src="'http://127.0.0.1:3000/img/'+item.img" alt="">
+                    <img :src="'https://www.wz2018.top:3001/img/'+item.img" alt="">
                 </div>
             </div>
         </div>

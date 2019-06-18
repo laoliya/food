@@ -4,7 +4,7 @@
         <div v-if="list">
             <div class="newMetu" v-for="(item,i) of list" :key="i">
                 <router-link :to="`/menuDetail/${item.mid}`" target="_blank">
-                    <div><img :src="'http://127.0.0.1:3000/img/'+item.img" alt=""></div>
+                    <div><img :src="'https://www.wz2018.top:3001/'+item.img" alt=""></div>
                     <h2>{{item.mname}}</h2>
                     <p>{{item.subtitle}}</p>
                 </router-link>
